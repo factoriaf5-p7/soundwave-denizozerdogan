@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+
+.navbar {
+    background-color: #202027   !important ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family:'Poppins', sans-serif ;
+  }
+  
+  .logo-brand-container {
+    margin-left: 10vw;
+    margin-right: 5vw;
+    background-color: #202027;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .brand-name {
+    font-size: 1.4rem;
+    color: white;
+  }
+  
+  .navbar .menu .navbar-link {
+    margin-right: 2vw;
+    padding-right: 10px;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .navbar .menu .navbar-link:hover {
+    text-decoration: none ;
+    color: #adadad ;
+  }
+
+  .navbar .menu .join-link {
+    margin-right: 3vw; 
+  }
