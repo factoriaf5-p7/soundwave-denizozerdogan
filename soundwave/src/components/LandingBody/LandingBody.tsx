@@ -17,18 +17,25 @@ export const LandingBody = () => {
           <Link to="/join">
            <Button label="Join Now" onClick={() => {}} />
           </Link>   
+          <div className="circle circle1"></div>
+          <div className="circle circle2"></div>
+          <div className="circle circle3"></div>
         </div>
       </Container>
 
       {/* Laptop Version */}
       <div id="content-laptop">
-        <div id="hero-image"></div>
         <div id="overlay">
           <Title text="Feel The Music" />
           <LargeTextField value="Stream over 20 thousand songs with one click" />
           <Link to="/join">
            <Button label="Join Now" onClick={() => {}} />
           </Link>  
+          <div className="circle-container">
+          <div className="circle circle1"></div>
+          <div className="circle circle2"></div>
+          <div className="circle circle3"></div>
+          </div>
         </div>
         <HeroImage />
       </div>
