@@ -1,6 +1,6 @@
 import { Container } from 'semantic-ui-react';
 import { Title } from '../../Atoms/Title/Title';
-import { Button } from '../../Atoms/Button/Button';
+import { ButtonLanding } from '../../Atoms/Buttons/ButtonLanding';
 import { LargeTextField } from '../../Atoms/LargeText/LargeText';
 import { HeroImage } from '../../Atoms/HeroImage/HeroImage';
 import './LandingBody.css'
@@ -15,7 +15,7 @@ export const LandingBody = () => {
           <Title text="Feel The Music" />
           <LargeTextField value="Stream over 20 thousand songs with one click"/>
           <Link to="/join">
-           <Button label="Join Now" onClick={() => {}} />
+           <ButtonLanding label="Join Now" onClick={() => {}} />
           </Link>   
           <div className="circle circle1"></div>
           <div className="circle circle2"></div>
@@ -29,7 +29,7 @@ export const LandingBody = () => {
           <Title text="Feel The Music" />
           <LargeTextField value="Stream over 20 thousand songs with one click" />
           <Link to="/join">
-           <Button label="Join Now" onClick={() => {}} />
+           <ButtonLanding label="Join Now" onClick={() => {}} />
           </Link>  
           <div className="circle-container">
           <div className="circle circle1"></div>
