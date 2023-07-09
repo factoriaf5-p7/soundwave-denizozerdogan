@@ -1,8 +1,8 @@
 import { Menu } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 import 'semantic-ui-css/semantic.min.css';
-import { Logo } from '../../Atoms/Logo'
-import { BrandName } from '../../Atoms/BrandName'
+import { Logo } from '../../Atoms/Logo/Logo'
+import { BrandName } from '../../Atoms/BrandName/BrandName'
 import './Navbar.css'
 
 export const Navbar = () => {

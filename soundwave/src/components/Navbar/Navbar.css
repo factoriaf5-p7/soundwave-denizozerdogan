@@ -5,39 +5,31 @@
 }
 
 .navbar {
-    background-color: #202027   !important ;
+    background-color: #202027 !important ;
     padding-bottom: 20px;
     padding-top: 20px;
     padding-left: 10px;
-    font-family:'Poppins', sans-serif ;
+    font-family:'Poppins', sans-serif !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px !important;
   }
   
   .logo-brand-container {
-    margin-left: 10vw;
-    margin-right: 5vw;
+    margin-left: 7vw;
+    margin-right: 3vw;
     background-color: #202027;
     display: flex;
     align-items: center;
   }
   
-  .logo {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-  }
-  
-  .brand-name {
-    font-size: 1.4rem;
-    color: white;
-  }
   
   .navbar .menu .navbar-link {
-    margin-right: 2vw;
-    padding-right: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: white;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 10px;
   }
   
   .navbar .menu .navbar-link:hover {
@@ -45,6 +37,18 @@
     color: #adadad ;
   }
 
-  .navbar .menu .join-link {
-    margin-right: 3vw; 
+  .join-link {
+    margin-right: 15px;
+  }
+  
+@media screen and (min-width: 1024px) {
+    .navbar {
+      padding-left: 15vw !important;
+      padding-right: 15vw !important;
+      padding-top: 4vh !important;
+    }
+
+    .navbar .menu .navbar-link {
+      font-size: 1.5rem;
+    }
   }

@@ -1,0 +1,13 @@
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  /* Add responsive styles for screens larger than 1024px */
+  @media screen and (min-width: 1024px) {
+    .logo {
+      width: 70px;
+      height: 70px;
+    }
+  }
