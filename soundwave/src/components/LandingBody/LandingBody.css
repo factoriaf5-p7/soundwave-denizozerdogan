@@ -9,7 +9,7 @@
     width: 100vw;
     position : relative;
     text-align: left; 
-    background-color: #202027;
+    background-color: #2F303A;
     margin: 0 !important;
     padding: 0 !important;
     padding-left: 40px !important;
@@ -49,7 +49,7 @@
     height: 100vh; /* Adjust the height as needed */
     width: 100vw;
     font-family: 'Poppins', sans-serif;
-    background-color: #202027;
+    background-color: #2F303A;
   }
 
   #overlay {

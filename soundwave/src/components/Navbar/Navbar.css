@@ -5,7 +5,7 @@
 }
 
 .navbar {
-    background-color: #202027 !important ;
+    background-color: #2F303A    !important ;
     padding-bottom: 20px;
     padding-top: 20px;
     padding-left: 10px;
@@ -19,7 +19,7 @@
   .logo-brand-container {
     margin-left: 7vw;
     margin-right: 3vw;
-    background-color: #202027;
+    background-color: #2F303A   ;
     display: flex;
     align-items: center;
   }
