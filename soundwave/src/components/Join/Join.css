@@ -102,7 +102,7 @@ form {
         width: 30vw; 
         padding: 20px 50px;
         margin-left: 5vw;
-        margin-top: 15vh;
+        margin-top: 10vh;
     } 
 
     #form-styling input {
@@ -134,7 +134,7 @@ form {
   /* Positioning of small circles */
   .circle4 {
     top: 250px;
-    left: -1600px;
+    left: -1500px;
     background-color: #bc3a801a;
   }
   

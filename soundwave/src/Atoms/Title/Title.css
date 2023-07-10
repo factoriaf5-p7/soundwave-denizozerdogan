@@ -11,13 +11,12 @@
     #title {
     width: 100%;
     font-size: 3.3rem;
-    margin-left: 50px;
-     }
+   }
  }
 
   @media screen and (min-width: 1024px) {
     #title {
-      width: 100%;
+      width: 35vw;
       font-size: 3.6rem;
     }
 }

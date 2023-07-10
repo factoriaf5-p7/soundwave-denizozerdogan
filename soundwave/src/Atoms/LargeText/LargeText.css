@@ -8,7 +8,6 @@
 
  @media screen and (min-width: 600px) {
     #large-text-field {
-    margin-left: 50px;
     width: 100%;
     }
  }
@@ -16,7 +15,5 @@
  @media screen and (min-width: 1024px) {
     #large-text-field {
         font-size: 1.6rem;
-        width: 90%;
-
     }
 }
