@@ -31,10 +31,10 @@ export const LandingBody = () => {
           <Link to="/join">
            <ButtonLanding label="Join Now" onClick={() => {}} />
           </Link>  
-          <div className="circle-container">
-          <div className="circle circle1"></div>
-          <div className="circle circle2"></div>
-          <div className="circle circle3"></div>
+          <div id="circle-container">
+            <div className="circle circle1"></div>
+            <div className="circle circle2"></div>
+            <div className="circle circle3"></div>
           </div>
         </div>
         <HeroImage />

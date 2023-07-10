@@ -12,7 +12,7 @@ export const Join = () => {
   };
 
   return (
-    <Container>
+    <Container id="join-page">
       <Header as="h2" id="header-styling">Join the <span>fun.</span></Header>
 
       <Form id="form-styling">
@@ -46,8 +46,8 @@ export const Join = () => {
         <ButtonJoin onClick={handleJoin} />
       </Form>
       <Container className="circle-container">
-      <div className="circle circle1"></div>
-      <div className="circle circle2"></div>
+      <div className="circleJoin circle4"></div>
+      <div className="circleJoin circle5"></div>
       </Container>
     </Container>
   );

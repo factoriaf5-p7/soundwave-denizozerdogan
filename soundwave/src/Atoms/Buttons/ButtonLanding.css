@@ -17,6 +17,13 @@
     background-color: #2796ff;
 }
 
+@media screen and (min-width: 600px) {
+    #landing-page-button {
+    margin-left: 50px;
+    }
+ }
+
+
 @media screen and (min-width: 1024px) {
     #landing-page-button {
         font-size:1.4rem;

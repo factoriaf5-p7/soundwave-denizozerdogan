@@ -7,6 +7,13 @@
   
   }
 
+  @media screen and (min-width: 600px) {
+    #title {
+    width: 100%;
+    margin-left: 50px;
+    }
+ }
+
   @media screen and (min-width: 1024px) {
     #title {
       width: 100%;

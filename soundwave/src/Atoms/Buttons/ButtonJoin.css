@@ -18,3 +18,10 @@
 #join-page-button:focus {
     background-color: #2796ff;
 }
+
+@media screen and (min-width: 1024px) {
+    #join-page-button {
+        width: 25vw;
+        font-size: 1.1rem;
+    }
+}
