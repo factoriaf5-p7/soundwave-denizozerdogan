@@ -1,5 +1,5 @@
-import { Button as SemanticButton } from 'semantic-ui-react';
-import './ButtonLanding.css'
+import { Button as SemanticButton } from "semantic-ui-react";
+import "./ButtonLanding.css";
 
 type ButtonProps = {
   onClick: () => void;
@@ -7,5 +7,9 @@ type ButtonProps = {
 };
 
 export const ButtonLanding = ({ onClick, label }: ButtonProps) => {
-  return <SemanticButton on onClick={onClick} id="landing-page-button">{label}</SemanticButton >;
+  return (
+    <SemanticButton on onClick={onClick} id="landing-page-button">
+      {label}
+    </SemanticButton>
+  );
 };

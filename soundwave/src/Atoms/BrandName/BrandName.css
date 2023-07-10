@@ -1,11 +1,11 @@
 .brand-name {
-    font-size: 1.2rem;
-    color: white;
+  font-size: 1.2rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+  .brand-name {
+    font-size: 1.8rem;
   }
-  
-  /* Add responsive styles for screens larger than 1024px */
-  @media screen and (min-width: 1024px) {
-    .brand-name {
-      font-size: 1.8rem;
-    }
-  }
+}

@@ -1,4 +1,4 @@
-import './LargeText.css'
+import "./LargeText.css";
 
 type LargeTextFieldProps = {
   value: string;

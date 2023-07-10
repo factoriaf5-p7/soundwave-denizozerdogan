@@ -1,19 +1,20 @@
 import { useState } from "react";
 import { Container, Form, Header } from "semantic-ui-react";
 import { ButtonJoin } from "../../Atoms/Buttons/ButtonJoin";
-import './Join.css'
+import "./Join.css";
 
 export const Join = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
-  const handleJoin = () => {
-  };
+  const handleJoin = () => {};
 
   return (
     <Container id="join-page">
-      <Header as="h2" id="header-styling">Join the <span>fun.</span></Header>
+      <Header as="h2" id="header-styling">
+        Join the <span>fun.</span>
+      </Header>
 
       <Form id="form-styling">
         <Form.Field className="form-field">
@@ -46,8 +47,8 @@ export const Join = () => {
         <ButtonJoin onClick={handleJoin} />
       </Form>
       <Container className="circle-container">
-      <div className="circleJoin circle4"></div>
-      <div className="circleJoin circle5"></div>
+        <div className="circleJoin circle4"></div>
+        <div className="circleJoin circle5"></div>
       </Container>
     </Container>
   );

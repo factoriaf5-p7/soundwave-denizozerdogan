@@ -1,9 +1,9 @@
-import { Button } from 'semantic-ui-react';
-import './ButtonJoin.css'
+import { Button } from "semantic-ui-react";
+import "./ButtonJoin.css";
 
 interface ButtonJoinProps {
-    onClick: () => void;
-  }
+  onClick: () => void;
+}
 
 export const ButtonJoin = ({ onClick }: ButtonJoinProps) => {
   return (

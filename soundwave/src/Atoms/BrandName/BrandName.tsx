@@ -1,5 +1,5 @@
-import './BrandName.css'
+import "./BrandName.css";
 
 export const BrandName = () => {
-    return <span className="brand-name">SoundWave</span>;
-  };
+  return <span className="brand-name">SoundWave</span>;
+};

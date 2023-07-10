@@ -1,4 +1,4 @@
-import './SmallText.css'
+import "./SmallText.css";
 
 type SmallTextFieldProps = {
   value: string;
