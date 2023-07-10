@@ -1,0 +1,10 @@
+.album-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    max-width: 62%;
+    margin: 5% auto;
+    margin-left: 10vw;
+    max-height: calc(100vh - 15vh);
+}

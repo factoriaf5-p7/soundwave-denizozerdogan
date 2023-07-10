@@ -4,14 +4,15 @@
     font-weight: normal;
     color: white;  
     width: 70%;
-  
+    line-height: 4.5rem;
   }
 
   @media screen and (min-width: 600px) {
     #title {
     width: 100%;
+    font-size: 3.3rem;
     margin-left: 50px;
-    }
+     }
  }
 
   @media screen and (min-width: 1024px) {

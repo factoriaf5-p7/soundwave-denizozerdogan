@@ -1,0 +1,21 @@
+#discover-section {
+    margin-left: 9vw;
+    margin-top: 3vh;
+    width: 100%;
+}
+
+.icons {
+   display: flex;
+   gap: 5vw;
+   margin: 2vh 0vw;
+}
+  
+@media screen and (min-width: 1024px) {
+    #discover-section {
+      padding-left: 13vw;
+      padding-top: 4vh;
+    }
+
+  
+  }
+
