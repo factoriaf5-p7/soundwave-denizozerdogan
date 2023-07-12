@@ -1,5 +1,3 @@
-import "./HeroImage.css";
-
 export const HeroImage = () => {
   return (
     <img

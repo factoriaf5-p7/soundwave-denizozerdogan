@@ -1,5 +1,3 @@
-import "./LargeText.css";
-
 type LargeTextFieldProps = {
   value: string;
 };

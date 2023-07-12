@@ -7,21 +7,10 @@
   width: 80px;
   height: 80px;
   background-color: #202027;
-  padding: 30px;
+  margin-bottom: 10px;
 }
 
 .discover-icon {
   margin-top: 10px;
   width: 30px;
-}
-
-@media screen and (min-width: 600px) {
-  .icon-container {
-    width: 100px;
-    height: 100px;
-  }
-
-  .discover-icon {
-    width: 40px;
-  }
 }

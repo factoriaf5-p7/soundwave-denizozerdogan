@@ -1,0 +1,72 @@
+@import "semantic-ui-css/semantic.min.css";
+
+:root {
+  /* Background colors */
+  --primary-background-color: #2f303a;
+  --secondary-background-color: #202027;
+
+  /* Button colors */
+  --button-background-color: #1762a7;
+  --button-hover-color: #2180d8;
+  --button-focus-color: #2796ff;
+
+  /* Font family */
+  --font-family: "Poppins", sans-serif;
+  --primary-font-color: white;
+  --secondary-font-color: #bc3a80;
+
+  /* Circle colors */
+  --primary-circle-color: #3457b21a;
+  --secondary-circle-color: #bc3a801a;
+
+  /* Border style */
+  --border-style: 1px solid rgba(89, 109, 160, 0.3);
+}
+
+* {
+  font-family: var(--font-family);
+  color: var(--primary-font-color);
+}
+
+body {
+  overflow: hidden;
+  background-color: var(--primary-background-color);
+}
+
+p {
+  color: white;
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-family: var(--font-family);
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin-top: 1vh;
+}
+
+div.ui.navbar {
+  background-color: #2f303a;
+}
+
+div.ui.navbar.menu {
+  margin-bottom: 0px;
+}
+
+.ui.button {
+  background-color: var(--button-background-color);
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: white;
+  margin-top: 10px;
+  font-weight: normal;
+  border-radius: 6%;
+}
+.ui.button:hover {
+  background-color: var(--button-hover-color);
+}
+
+.ui.button:focus {
+  background-color: var(--button-focus-color);
+}
+

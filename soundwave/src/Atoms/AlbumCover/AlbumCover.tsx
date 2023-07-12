@@ -1,7 +1,14 @@
-import "./AlbumCover.css";
+import { Image } from "semantic-ui-react";
 
 export const AlbumCover = () => {
   return (
-    <img src="assets/covers.jpg" alt="Album Covers" className="album-cover" />
+    <Image
+      centered
+      size="medium"
+      fluid
+      src="assets/covers.jpg"
+      alt="Album Covers"
+      className="album-cover"
+    />
   );
 };
