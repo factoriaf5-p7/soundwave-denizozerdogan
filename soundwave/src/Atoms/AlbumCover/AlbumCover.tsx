@@ -6,7 +6,7 @@ export const AlbumCover = () => {
       centered
       size="medium"
       fluid
-      src="assets/covers.jpg"
+      src="/covers.jpg"
       alt="Album Covers"
       className="album-cover"
     />

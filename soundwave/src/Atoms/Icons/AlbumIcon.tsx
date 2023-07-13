@@ -8,7 +8,7 @@ export const AlbumIcon = () => {
       <Image
         centered
         size="mini"
-        src="assets/albums.svg"
+        src="/albums.svg"
         alt="Album Icon"
         className="discover-icon"
       />

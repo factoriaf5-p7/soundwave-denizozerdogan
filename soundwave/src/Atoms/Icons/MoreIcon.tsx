@@ -8,7 +8,7 @@ export const MoreIcon = () => {
       <Image
         centered
         size="mini"
-        src="assets/more.svg"
+        src="/more.svg"
         alt="More Icon"
         className="discover-icon"
       />

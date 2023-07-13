@@ -8,7 +8,7 @@ export const ChartIcon = () => {
       <Image
         centered
         size="mini"
-        src="assets/microphone.svg"
+        src="/microphone.svg"
         alt="Chart Icon"
         className="discover-icon"
       />
