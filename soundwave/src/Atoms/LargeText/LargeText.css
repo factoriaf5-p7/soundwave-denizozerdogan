@@ -1,0 +1,19 @@
+#large-text-field {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  width: 70%;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  #large-text-field {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #large-text-field {
+    font-size: 1.6rem;
+  }
+}

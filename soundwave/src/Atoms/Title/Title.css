@@ -1,0 +1,22 @@
+#title {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  color: white;
+  width: 70%;
+  line-height: 4.5rem;
+}
+
+@media screen and (min-width: 600px) {
+  #title {
+    width: 100%;
+    font-size: 3.3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #title {
+    width: 35vw;
+    font-size: 3.6rem;
+  }
+}

@@ -1,0 +1,25 @@
+#landing-page-button {
+  background-color: #1762a7;
+  font-size: 0.8rem;
+  color: white;
+  padding: 4% 7%;
+  margin-top: 10px;
+  font-weight: normal;
+  border-radius: 6%;
+  font-family: "Poppins", sans-serif;
+}
+
+#landing-page-button:hover {
+  background-color: #2180d8;
+}
+
+#landing-page-button:focus {
+  background-color: #2796ff;
+}
+
+@media screen and (min-width: 1024px) {
+  #landing-page-button {
+    font-size: 1.4rem;
+    padding: 3% 4%;
+  }
+}

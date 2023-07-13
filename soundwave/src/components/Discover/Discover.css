@@ -1,0 +1,45 @@
+#discover-section {
+  margin-left: 9vw;
+  margin-top: 3vh;
+  width: 100%;
+}
+
+.icons {
+  display: flex;
+  gap: 5vw;
+  margin: 2vh 0vw;
+}
+
+@media screen and (min-width: 1024px) {
+  #discover-section {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 80%;
+    padding-left: 12vw;
+  }
+
+  .title {
+    width: 500px;
+  }
+
+  .icons {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+
+  .text {
+    display: flex;
+    max-width: 950px;
+    margin-top: -1rem;
+  }
+
+  .album-covers {
+    margin-top: -50px;
+    margin-left: -400px;
+  }
+}

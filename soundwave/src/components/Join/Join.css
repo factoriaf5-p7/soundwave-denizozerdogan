@@ -1,0 +1,143 @@
+body {
+  background-color: #2f303a;
+  font-family: "Poppins", sans-serif;
+}
+
+form {
+  background-color: #202027;
+  width: 80vw;
+  margin: 20px auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+#form-styling .form-field {
+  margin-top: 5px;
+}
+#form-styling .form-field:nth-child(1) {
+  margin-top: 20px;
+}
+
+#form-styling .form-field label {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 7px;
+}
+
+#form-styling input {
+  background-color: #202027;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid rgba(89, 109, 160, 0.3);
+  width: 60vw;
+}
+
+#header-styling {
+  width: 70vw;
+  font-size: 3.4rem;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#header-styling span {
+  color: #bc3a80;
+}
+
+/* Circles Styling */
+.circle-container {
+  position: relative;
+}
+
+.circleJoin {
+  position: absolute;
+  border-radius: 50%;
+  width: 30vw;
+  height: 30vw;
+  z-index: -1;
+}
+
+/* Positioning of small circles */
+.circle4 {
+  top: -70px;
+  left: -40px;
+  background-color: #bc3a801a;
+}
+
+.circle5 {
+  z-index: 1;
+  top: -600px;
+  right: 45%;
+  background-color: #3457b21a;
+}
+
+@media screen and (min-width: 1024px) {
+  #join-page {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #header-styling {
+    width: 100vw;
+    font-size: 5.2rem;
+    font-weight: 900;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    margin: auto 50px;
+    white-space: nowrap;
+  }
+
+  #form-styling {
+    width: 30vw;
+    padding: 20px 50px;
+    margin-left: 5vw;
+    margin-top: 10vh;
+  }
+
+  #form-styling input {
+    background-color: #202027;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid rgba(89, 109, 160, 0.3);
+    width: 25vw;
+    height: 5vh;
+    margin: 10px;
+  }
+
+  #form-styling .form-field label {
+    font-size: 1.4rem;
+    margin-bottom: 7px;
+    margin-left: 10px;
+  }
+
+  .circleJoin {
+    position: absolute;
+    border-radius: 50%;
+    width: 35vw;
+    height: 35vw;
+    z-index: -1;
+  }
+
+  /* Positioning of small circles */
+  .circle4 {
+    top: 250px;
+    left: -1500px;
+    background-color: #bc3a801a;
+  }
+
+  .circle5 {
+    z-index: 1;
+    top: -300px;
+    right: 500px;
+    background-color: #3457b21a;
+  }
+}
